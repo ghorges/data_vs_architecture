@@ -26,6 +26,10 @@ uv sync
 
 This installs all pinned dependencies from `uv.lock` (NumPy, pandas, scikit-learn, statsmodels, scipy, pymatgen, matplotlib, seaborn, etc.).
 
+**Typical install time:** approximately 3--5 minutes on a standard desktop with broadband internet, depending on dependency download speed.
+
+**Hardware:** No non-standard hardware required. All analyses run on a standard CPU; no GPU is needed.
+
 ## Data
 
 All inputs are publicly hosted and can be downloaded with the included script:
@@ -56,6 +60,10 @@ The source code is available on GitHub and archived on Zenodo:
 - Code DOI: https://doi.org/10.5281/zenodo.19848180
 
 ## Reproducing the Analysis
+
+**Expected output:** result tables under `results/tables/`, JSON evidence summaries under `results/manifest/`, and main-text and supplementary figures under `results/figures/`. The complete output set reproduces every numerical claim and figure in the manuscript.
+
+**Expected run time:** the full pipeline takes approximately 2--3 hours on a standard desktop CPU when inputs must be downloaded and regenerated from scratch; individual analysis modules each complete within 1--10 minutes once inputs are available.
 
 List all available evidence-pipeline targets:
 
