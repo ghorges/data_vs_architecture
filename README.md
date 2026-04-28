@@ -1,5 +1,7 @@
 # data-vs-architecture
 
+[![DOI](https://zenodo.org/badge/1194138667.svg)](https://doi.org/10.5281/zenodo.19848180)
+
 Code repository for the analysis pipeline used in the study:
 
 > **Training data provenance, not architecture, is the primary determinant of performance on a materials discovery benchmark.**
@@ -45,6 +47,13 @@ The frozen 45-model snapshot, intermediate analysis outputs, and figure-ready ta
 > https://doi.org/10.6084/m9.figshare.31884946
 
 To use the Figshare archive instead of regenerating everything, download the archive and unpack the `data/`, `results/`, and `external/` contents into the repository root, preserving the directory names above.
+
+## Code Availability
+
+The source code is available on GitHub and archived on Zenodo:
+
+- GitHub: https://github.com/ghorges/data_vs_architecture
+- Zenodo: https://doi.org/10.5281/zenodo.19848180
 
 ## Reproducing the Analysis
 
@@ -129,6 +138,7 @@ If you use this code, please cite the accompanying manuscript (currently under r
 Ma, Y., Li, W., Zhang, C., Zhao, H., Zhang, N., Yao, L., Kang, P., Yun, J.
 data-vs-architecture: analysis pipeline for the data-versus-architecture materials discovery study.
 GitHub https://github.com/ghorges/data_vs_architecture (2026).
+Zenodo https://doi.org/10.5281/zenodo.19848180.
 ```
 
 ## License
