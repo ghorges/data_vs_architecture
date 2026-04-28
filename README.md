@@ -1,6 +1,6 @@
 # data-vs-architecture
 
-[![DOI](https://zenodo.org/badge/1194138667.svg)](https://doi.org/10.5281/zenodo.19848180)
+**Data DOI:**[![Code DOI](https://zenodo.org/badge/1194138667.svg)](https://doi.org/10.5281/zenodo.19848180)  
 
 Code repository for the analysis pipeline used in the study:
 
@@ -44,7 +44,7 @@ The full pipeline then writes derived tables to `data/processed/`, analysis outp
 
 The frozen 45-model snapshot, intermediate analysis outputs, and figure-ready tables are archived on Figshare:
 
-> https://doi.org/10.6084/m9.figshare.31884946
+> Data DOI: https://doi.org/10.6084/m9.figshare.31884946
 
 To use the Figshare archive instead of regenerating everything, download the archive and unpack the `data/`, `results/`, and `external/` contents into the repository root, preserving the directory names above.
 
@@ -53,7 +53,7 @@ To use the Figshare archive instead of regenerating everything, download the arc
 The source code is available on GitHub and archived on Zenodo:
 
 - GitHub: https://github.com/ghorges/data_vs_architecture
-- Zenodo: https://doi.org/10.5281/zenodo.19848180
+- Code DOI: https://doi.org/10.5281/zenodo.19848180
 
 ## Reproducing the Analysis
 
