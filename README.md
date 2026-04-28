@@ -1,6 +1,6 @@
 # data-vs-architecture
 
-**Data DOI:**[![Code DOI](https://zenodo.org/badge/1194138667.svg)](https://doi.org/10.5281/zenodo.19848180)  
+**Code DOI:** [![Code DOI](assets/zenodo-code-doi.svg)](https://doi.org/10.5281/zenodo.19848180)  
 
 Code repository for the analysis pipeline used in the study:
 
